@@ -1,0 +1,48 @@
+.home__image{
+    width: 700px;
+    height: 500px;
+    margin-left: 30px;
+
+}
+.home{
+    display: flex;
+    margin-top: 20px;
+
+}
+.home__text{
+    margin-top: 80px;
+    font-size: 20px;  
+      color: rgb(107, 105, 105)
+
+}
+.home__text > h4{
+     
+      color: rgb(107, 105, 105);
+      font-weight: 300;
+      padding-right: 100px;
+
+}
+.home__btn{
+    background-color: rgb(255, 145, 0);
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-size: 16px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top:5px
+
+
+}
+.home__btn_two{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top:5px
+
+
+}
