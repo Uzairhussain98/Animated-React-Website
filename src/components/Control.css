@@ -1,0 +1,35 @@
+.control{
+     display: flex;
+    margin-top: 50px;
+}
+.control__text{
+    
+        margin-top: 100px;
+        font-size: 20px;  
+          color: rgb(107, 105, 105);
+          margin-left: 80px;
+          border: 1px solid rgb(107, 105, 105);
+          height: 270px;
+          padding-left: 20px;
+           border-radius: 10px ;
+           color:rgb(255, 145, 0);
+           background-color: whitesmoke;
+          
+    
+    
+
+}
+.control__image{
+    width: 600px;
+    height: 500px;
+    margin-left: 10px;
+
+}
+.control__text > h4{
+     
+    color: rgb(107, 105, 105);
+    font-weight: 300;
+    padding-right: 20px;
+    padding-top: 10px
+
+}

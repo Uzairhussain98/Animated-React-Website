@@ -1,0 +1,13 @@
+.footer{
+    height: 40vh;
+    width: 100%;
+    /* background-color: darkblue; */
+    background: linear-gradient(57deg, rgb(107, 105, 105),  rgb(221, 127, 5));
+    
+    margin-top: 0px;
+    padding-top: 80px;
+    text-align: center;
+    
+    
+    
+    }
