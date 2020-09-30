@@ -18,3 +18,39 @@ color: rgb(107, 105, 105)
 
     
 }
+
+
+
+@media screen and (max-width: 450px) {
+
+    .container{
+        background-image: none;
+        height: 400px;
+        width: 450px;    
+        text-align: center;
+        margin-top: -150px;
+        
+    }
+    .container__text{
+        padding-top:80px;
+        padding-right: 100px;
+        padding-left: 80px;
+        font-size: 13px;
+        color: rgb(107, 105, 105)
+        
+        
+            
+        }
+
+
+
+
+
+}
+
+
+
+
+
+
+

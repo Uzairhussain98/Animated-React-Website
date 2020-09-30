@@ -12,14 +12,14 @@ const Header = () => {
 
        </div>
        <div className="header__links">
-       <h4 className="link">Home</h4>
-       <h4 className="link">About Us</h4>
-       <h4 className="link">Contact</h4>
+       <h4 className="link hvr-sweep-to-left">Home</h4>
+       <h4 className="link hvr-sweep-to-left">About Us</h4>
+       <h4 className="link hvr-sweep-to-left">Contact</h4>
 
 
        </div>
 
-       <button className="header__btn">Get Started</button>
+       <button className="header__btn ">Get Started</button>
 
     </div>
   )

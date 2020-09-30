@@ -38,3 +38,36 @@
    padding-top: 10px
 
 }
+@media screen and (max-width: 450px) {
+   .energy{
+       flex-direction: column;
+       height: 700px;
+       width: 450px;
+   }
+   .energy__image{
+      width: 300px;
+      padding-top:100px;
+      height: 200px;
+      margin-left: 60px;
+      margin-top: -30px;
+   
+   }
+   .energy__text{
+   
+      margin-top: 50px;
+      font-size: 17px;  
+        color: rgb(107, 105, 105);
+        margin-left: 30px;
+        height: 200px;
+        width: 330px;
+        padding-left: 20px;
+         color:rgb(255, 145, 0);
+         background-color:white;
+        
+  
+  
+
+}
+
+   }
+   

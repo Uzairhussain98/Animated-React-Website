@@ -47,3 +47,37 @@
 
 
 }
+.home__btn:hover{
+    background-color: whitesmoke;
+    border:3px solid rgb(255, 145, 0);
+    cursor: pointer
+
+}
+.home__btn_two:hover{
+    border:3px solid rgb(255, 145, 0);
+    cursor: pointer
+
+
+}
+@media screen and (max-width: 500px) {
+    .home{
+        flex-direction: column;
+
+    }
+    .home__image{
+        width: 400px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 100px;
+    
+    }
+    .home__text{
+        margin-top: 50px;
+        font-size: 15px;  
+          color: rgb(107, 105, 105);
+          margin-left: 70px;
+    
+    }
+    
+
+ }

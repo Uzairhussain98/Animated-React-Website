@@ -1,13 +1,32 @@
 .footer{
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     /* background-color: darkblue; */
-    background: linear-gradient(57deg, rgb(107, 105, 105),  rgb(221, 127, 5));
-    
-    margin-top: 0px;
-    padding-top: 80px;
+    background-color: rgb(196, 192, 192);
+     margin-top: 0px;
+    padding-top: 40px;
     text-align: center;
+    color:rgb(107, 105, 105);
     
     
     
     }
+    .footer__line{
+        background-color: orange;
+        height: 50px;
+        width: 100%;
+
+
+    }
+    @media screen and (max-width: 450px) {
+        .footer{
+            width: 450px;
+        }
+        .footer > h2{
+            padding-right: 60px;
+            padding-left:30px
+        }
+
+    }
+
+
