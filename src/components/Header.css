@@ -107,7 +107,7 @@ margin-right:60px;
     left: 0;
     right: 0;
     bottom: 0;
-    background: #ffd512;
+    background: rgb(255, 145, 0);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 100% 50%;

@@ -20,6 +20,34 @@ color: rgb(107, 105, 105)
 }
 
 
+@media screen and (max-width: 800px) {
+
+    .container{
+        background-image: none;
+        height: 300px;
+        width: 770px;    
+        text-align: center;
+        margin-top: -80px;
+        
+    }
+    .container__text{
+        padding-top:80px;
+        padding-right: 70px;
+        padding-left: 80px;
+        font-size: 13px;
+        color: rgb(107, 105, 105)
+        
+        
+            
+        }
+
+
+
+
+
+}
+
+
 
 @media screen and (max-width: 450px) {
 
@@ -28,7 +56,7 @@ color: rgb(107, 105, 105)
         height: 400px;
         width: 450px;    
         text-align: center;
-        margin-top: -150px;
+        margin-top:00px;
         
     }
     .container__text{

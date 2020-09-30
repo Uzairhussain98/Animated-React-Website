@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css'
 import logo from './logo.jpeg'
+import { Link} from "react-router-dom";
+
 
 
 const Header = () => {
@@ -12,9 +14,9 @@ const Header = () => {
 
        </div>
        <div className="header__links">
-       <h4 className="link hvr-sweep-to-left">Home</h4>
-       <h4 className="link hvr-sweep-to-left">About Us</h4>
-       <h4 className="link hvr-sweep-to-left">Contact</h4>
+      <Link to="/"> <h4 className="link hvr-sweep-to-left">Home</h4> </Link>
+      <Link to="/About"> <h4 className="link hvr-sweep-to-left">About Us</h4> </Link>
+      <Link to="/Contact"><h4 className="link hvr-sweep-to-left">Contact</h4> </Link>
 
 
        </div>
