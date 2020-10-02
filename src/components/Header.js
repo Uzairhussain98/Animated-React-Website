@@ -9,10 +9,14 @@ const Header = () => {
   return (
     <div className="header">
        <div className="header__logo">
-           <img className="logo__image" src={logo} alt="logo"/>
+       <Link to="/">
+  <img className="logo__image" src={logo} alt="logo"/>
+  </Link>
+
            <h3>Robust Tech</h3>
 
        </div>
+       
        <div className="header__links">
       <Link to="/"> <h4 className="link hvr-sweep-to-left">Home</h4> </Link>
       <Link to="/About"> <h4 className="link hvr-sweep-to-left">About Us</h4> </Link>
